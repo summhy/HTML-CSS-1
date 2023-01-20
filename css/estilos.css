@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Varaible*/
+:root{
+    /* nombre_variable: valor_variable */
+    --color-empresa:rgba(104, 167, 150, 0.539);
+}
+
+
+/* Estilos para el header */
+.logo{
+    width: 8rem;
+    border-radius: 5rem;
+    border: 2px solid black;
+    -webkit-box-shadow: 19px 15px 15px 5px #000000; 
+    box-shadow: 19px 15px 15px 5px #000000;
+}
+.nombre-empresa{
+    margin-left: 5rem;
+    font-family: 'Anton', sans-serif;
+}
+header{
+    display: flex;
+    background-color: var(--color-empresa);
+}
+/* Estilos para la barra de navegación */
+nav{
+    margin-top: 2.5rem;
+}
+
+.btn-menu{
+    
+    padding: .8rem;
+    margin-right: 0.5rem;
+    background-color: gray;
+    color: wheat;
+    border-radius: .5rem;
+    text-decoration:none;
+}
+/* Estilos para las secciones  */
+.section-img{
+    width: 10%;
+}
+
+.contenido{
+    display:flex;  
+    gap: .8rem;     
+}
+section{
+    border: 1px solid lightgray;
+    margin-top: 5rem;
+    padding: .8rem;
+    border-radius: .5rem;
+}
+footer{
+    background-color: var(--color-empresa);
+    padding: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
